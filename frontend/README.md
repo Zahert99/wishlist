@@ -1,16 +1,43 @@
-# React + Vite
+# Wishlist App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Render Adress:
 
-Currently, two official plugins are available:
+[https://wishlist-5gk9.onrender.com](https://wishlist-5gk9.onrender.com)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Projektbeskrivning
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Detta är en **fullstack-applikation** där användare kan skapa och hantera personliga önskelistor (wishlists).  
+Varje användare kan ha flera listor, och varje lista innehåller produkter med **titel, pris och länk**.  
+Applikationen är byggd med **React (frontend)**, **Express.js (backend)** och **PostgreSQL (databas)**.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Content Delivery Networks (CDN)
+
+Ett **Content Delivery Network** är ett globalt nätverk av servrar som levererar statiskt innehåll som bilder, JavaScript och CSS från den server som är närmast användaren.  
+Det ger snabbare laddningstider och minskar belastningen på huvudservern.
+
+**Fördelar:**
+
+- Snabbare laddning och bättre användarupplevelse
+- Högre tillgänglighet vid trafiktoppar
+- Extra säkerhet mot DDoS-attacker
+
+**Exempel:** Cloudflare, Amazon CloudFront, Akamai, Fastly
+
+---
+
+## Monitorering
+
+**Monitorering** innebär att följa applikationens prestanda, tillgänglighet och säkerhet.  
+Genom att samla in data kan utvecklare upptäcka problem och optimera systemet.
+
+**Fördelar:**
+
+- Tidig varning vid driftstörningar
+- Underlättar felsökning
+- Ger bättre stabilitet och prestanda
+
+**Exempel:** Datadog, New Relic, Pingdom, Grafana
